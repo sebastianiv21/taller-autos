@@ -1,8 +1,15 @@
-import React from 'react'
+import { BrowserRouter as Router } from "react-router-dom";
+
+//Components
+import Main from "./components/Main";
 
 const App = () => {
   return (
-    <div className='bg-blue-400'>App</div>
+    <>
+      <Router>
+        <Main />
+      </Router>
+    </>
   )
 }
 
