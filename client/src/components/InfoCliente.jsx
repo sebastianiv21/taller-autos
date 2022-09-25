@@ -6,11 +6,11 @@ const InfoCliente = () => {
            <section className="informacion-cliente bg-base rounded-md mx-auto p-6 w-5/6 grid grid-cols-3 gap-4">
               <div className="flex  gap-2">
                 <label htmlFor="fechaIngreso">Fecha de Ingreso</label>
-                <input id="fechaIngreso" type="text" className="grow rounded-md" name="fechaIngreso"/>
+                <input id="fechaIngreso" type="date" className="grow rounded-md" name="fechaIngreso"/>
               </div>
               <div className="flex gap-2">
                 <label htmlFor="fechaSalida">Fecha de Salida</label>
-                <input id="fechaSalida" type="text" className="grow rounded-md"/>
+                <input id="fechaSalida" type="date" className="grow rounded-md"/>
               </div>
               <div className="flex gap-2">
                 <label htmlFor="kilometraje">Kilometraje</label>
@@ -25,11 +25,11 @@ const InfoCliente = () => {
                 <input id="identificacion" type="text" className="grow rounded-md"/>
               </div>
               <div className="col-span-2 flex gap-2">
-                <label htmlFor="direccion">Direccion</label>
+                <label htmlFor="direccion">Dirección</label>
                 <input id="direccion" type="text" className="grow rounded-md"/>
               </div>
               <div className="flex gap-2">
-                <label htmlFor="telefono">Telefono</label>
+                <label htmlFor="telefono">Teléfono</label>
                 <input id="telefono" type="text" className="grow rounded-md"/>
               </div>
               <div className="col-span-2 flex gap-2">
@@ -45,7 +45,7 @@ const InfoCliente = () => {
                 <input id="marca" type="text" className="grow rounded-md"/>
               </div>
               <div className="flex gap-2">
-                <label htmlFor="linea">Linea</label>
+                <label htmlFor="linea">Línea</label>
                 <input id="linea" type="text" className="grow rounded-md"/>
               </div>
               <div className="flex gap-2">

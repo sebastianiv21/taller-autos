@@ -9,7 +9,7 @@ const checkList = checkListData.map((item) => (
 
 const CheckList = () => {
   return (
-    <section className="bg-base rounded-md mx-auto p-4 w-5/6 grid grid-cols-5 gap-4 justify-items-start">
+    <section className="bg-base rounded-md mx-auto p-4 w-5/6 grid grid-cols-5 gap-4">
       {checkList}
     </section>
   );
