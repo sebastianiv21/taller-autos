@@ -2,7 +2,7 @@ const Login = () => {
   return (
     <main>
       <article className="container">
-        <div className="flex">
+        <section className="flex">
           <form className="bg-base rounded-md mx-auto my-20 p-3 text-oscuro text-lg">
             <div className="flex flex-col text-center my-1 mx-5">
               <label htmlFor="username">Usuario</label>
@@ -16,7 +16,7 @@ const Login = () => {
               <button className="bg-oscuro rounded-md py-1 px-2 text-sm mt-3">Iniciar sesión</button>
             </div>
           </form>
-        </div>
+        </section>
       </article>
     </main>
   );
