@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate  } from "react-router-dom";
 
 //Components
 import Navbar from "./Navbar";
@@ -12,7 +12,8 @@ const Main = () => {
     <>
     <Navbar />
     <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Navigate to="/login"/>}/>
         <Route path="*" element={<NotFound />} />
     </Routes>
     </>
