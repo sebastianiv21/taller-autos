@@ -7,7 +7,7 @@ const CheckItem = ({ title, checked }) => {
         id={title}
         name={title}
         value={title}
-        checked={checked}
+       
       />
     </div>
   );

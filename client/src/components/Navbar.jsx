@@ -17,9 +17,9 @@ const Navbar = () => {
           <div className="ml-4">NIT: 800.021.451-0</div>
         </div>
         <div className="flex items-center">
-          <Link to="/" className="mx-2">ordenes de reparacion</Link>
-          <Link to="/" className="mx-2">facturacion</Link>
-          <Link to="/" className="mx-2 bg-oscuro rounded-md py-1 px-2 text-center text-white flex items-center  h-full"> <span className="mb-1">cerrar sesion</span> </Link>
+          <Link to="/" className="mx-2 p-2 rounded-md hover:bg-claro">ordenes de reparacion</Link>
+          <Link to="/facturacion" className="mx-2 p-2 rounded-md hover:bg-claro">facturacion</Link>
+          <Link to="/" className="mx-2 bg-oscuro rounded-md py-1 px-2 text-center text-white flex items-center "> <span className="mb-1">cerrar sesion</span> </Link>
           
         </div>
       </nav>
