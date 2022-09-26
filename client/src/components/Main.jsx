@@ -17,6 +17,7 @@ const Main = () => {
       <OrderProvider>
         <Routes>
           <Route path="/" element={<Login />} />
+          <Route path="/taller-autos" element={<Login />} />
           <Route path="/facturacion" element={<Facturacion />} />
           <Route path="/ordenes" element={<Ordenes />} />
           <Route path="*" element={<NotFound />} />
