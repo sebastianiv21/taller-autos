@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/taller-autos/client/public/static/css/main.df097084.css",
-    "main.js": "/taller-autos/client/public/static/js/main.a4809e26.js",
-    "index.html": "/taller-autos/client/public/index.html",
-    "main.df097084.css.map": "/taller-autos/client/public/static/css/main.df097084.css.map",
-    "main.a4809e26.js.map": "/taller-autos/client/public/static/js/main.a4809e26.js.map"
+    "main.css": "/taller-autos/static/css/main.df097084.css",
+    "main.js": "/taller-autos/static/js/main.a4809e26.js",
+    "index.html": "/taller-autos/index.html",
+    "main.df097084.css.map": "/taller-autos/static/css/main.df097084.css.map",
+    "main.a4809e26.js.map": "/taller-autos/static/js/main.a4809e26.js.map"
   },
   "entrypoints": [
     "static/css/main.df097084.css",
