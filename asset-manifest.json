@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/taller-autos/static/css/main.df097084.css",
+    "main.js": "/taller-autos/static/js/main.a4809e26.js",
+    "index.html": "/taller-autos/index.html",
+    "main.df097084.css.map": "/taller-autos/static/css/main.df097084.css.map",
+    "main.a4809e26.js.map": "/taller-autos/static/js/main.a4809e26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df097084.css",
+    "static/js/main.a4809e26.js"
+  ]
+}
