@@ -1,21 +1,30 @@
-import useOrderList from "../hooks/useOrderList";
+import useOrderList from '../hooks/useOrderList'
 const CheckItem = ({ title, checked }) => {
-  const { register, formState: { errors } } = useOrderList()
+  const {
+    register,
+    formState: { errors },
+  } = useOrderList()
   return (
-    <div className="text-oscuro flex justify-center">
-      <label htmlFor={title} className='mr-2' > {title}</label>
+    <div className='text-oscuro flex justify-center items-center'>
+      <label
+        htmlFor={title}
+        className='mr-2'
+      >
+        {' '}
+        {title}
+      </label>
       <input
-        type="checkbox"
+        type='checkbox'
         id={title}
         name={title}
         {...register(`${title}`, {
           required: {
-            value: false
-          }
+            value: false,
+          },
         })}
       />
     </div>
-  );
-};
+  )
+}
 
-export default CheckItem;
+export default CheckItem
