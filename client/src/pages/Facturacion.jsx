@@ -6,7 +6,7 @@ import Description from '../components/Description'
 import InfoCliente from '../components/InfoCliente'
 
 const Facturacion = () => {
-  const { onSubmit, handleSubmit, register } = useOrderList()
+  const { onSubmit, handleSubmit } = useOrderList()
   return (
     <main>
       <article className='xl:container mx-auto mt-10 text-oscuro'>

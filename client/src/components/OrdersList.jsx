@@ -4,7 +4,7 @@ import useOrderList from '../hooks/useOrderList'
 import OrderItem from './OrderItem'
 
 const OrdersList = () => {
-  const { ordersList, setOrdersList } = useOrderList()
+  const { ordersList } = useOrderList()
 
   const renderOrdersList = ordersList.map((order) => (
     <OrderItem
