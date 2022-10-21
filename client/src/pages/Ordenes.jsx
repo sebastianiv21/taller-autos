@@ -1,14 +1,14 @@
 //Components
-import OrdersList from "../components/OrdersList"
-import useOrderList from "../hooks/useOrderList"
+import OrdersList from '../components/OrdersList'
+import Busqueda from '../components/Busqueda'
+
 const Ordenes = () => {
-  const {ordersList} = useOrderList()
-  console.log(ordersList)
   return (
     <main>
-        <article>
-            <OrdersList />
-        </article>
+      <article className='flex flex-col'>
+        <Busqueda />
+        <OrdersList />
+      </article>
     </main>
   )
 }
