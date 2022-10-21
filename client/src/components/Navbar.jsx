@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import imagen from "../public/logo-png.png"
 const Navbar = () => {
   return (
     <>
@@ -7,7 +7,8 @@ const Navbar = () => {
         <div className="flex items-center">
           <div>
             <img
-              src="logo-edgar.png"
+              // src="logo-edgar.png"
+              src={imagen}
               width="40"
               alt="TALLER EDGAR PERDOMO Y CIA .LTDA"
             />
